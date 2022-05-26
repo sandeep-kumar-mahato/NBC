@@ -16,7 +16,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #f6426d;
-  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 25px 20px -16px rgba(0, 0, 0, 1);
 }
 
 nav img{
