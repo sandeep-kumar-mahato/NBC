@@ -11,6 +11,16 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
+.container {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+/* -------------- navigation bar --------------- */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -20,7 +30,7 @@ nav {
   padding: 5px;
 }
 
-nav img{
+nav img {
   width: 135px;
   margin-left: 24px;
   padding-top: 4px;
@@ -62,6 +72,50 @@ nav img{
 nav .material-icons {
   display: none;
 }
+
+
+/* --------------- Home Page ----------------- */
+
+.log {
+  display: inline-block;
+  height: 1em;
+  width: auto;
+  line-height: 1;
+  vertical-align: -0.15em;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+#demo{
+  color: #f1c50e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width: 700px) {
   .text-box h1 {
