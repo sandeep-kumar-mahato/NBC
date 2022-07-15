@@ -20,7 +20,7 @@
 
 <body>
 
-  <nav>
+  <!--   <nav class="navbar navbar-expand-lg">
     <a href="index.html"><img src="images/logo.png" alt="logo"></a>
     <div class="nav-links" id="nav-links">
       <i class="material-icons" onclick="hidemenu()">close</i>
@@ -33,7 +33,25 @@
       </ul>
     </div>
     <i class="material-icons" onclick="showmenu()">menu</i>
+  </nav> -->
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="link">
+      <img class="logo" src="images/logo.png" alt="logo" width="100px">
+    </div>
+    <div id="nav-links" class="nav-links link">
+      <i class="far fa-window-close material-icons" onclick="hidemenu()"></i>
+      <ul class="navbar-nav">
+        <li><a class="navbar-brand" href="#">NBC</a></li>
+        <li><a class="navbar-brand" href="#">Key Speakers</a></li>
+        <li><a class="navbar-brand" href="#">Fee Structure</a></li>
+        <li><a class="navbar-brand" href="#">Committee</a></li>
+        <li><a class="navbar-brand" href="#">Reach Rourkela</a></li>
+      </ul>
+    </div>
+    <i class="fas fa-bars material-icons" onclick="showmenu()"></i>
   </nav>
+
 
   <!-- Home Page -->
   <div class="container">
