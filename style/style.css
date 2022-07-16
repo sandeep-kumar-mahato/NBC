@@ -299,14 +299,47 @@ h4 {
 
 /* ------------- Committee ------------- */
 
-.dropdown{
+span {
+  color: white;
+  font-size: 1.2em;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+span::after {
+  float: right;
+  right: 10%;
+}
+
+.slide {
+  clear: both;
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slide li {
+  padding: 0;
+}
+
+#touch, #touch1, #touch2, #touch3 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch:checked+.slide, #touch1:checked+.slide, #touch2:checked+.slide, #touch3:checked+.slide {
+  height: auto;
+}
+
+.dropdown {
+  width: 100%;
   background-color: #FF869E;
   border: 1px solid #ed1346;
   padding: 0.5rem;
-}
-
-.advisory-committee{
-  background-color: #FF869E;
 }
 
 
