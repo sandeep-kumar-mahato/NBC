@@ -245,11 +245,6 @@ mark {
   color: #ed1346;
 }
 
-table {
-  width: 80%;
-  margin: auto;
-  margin-bottom: 1rem;
-}
 
 thead {
   font-size: 1rem;
@@ -267,6 +262,7 @@ table,
 th,
 td {
   border: 1.5px solid #000;
+  border-collapse: collapse;
   padding: 8px;
 }
 
@@ -397,6 +393,7 @@ h4 {
   #demo {
     font-size: 1.5rem;
     width: 100%;
+    text-align: center;
   }
 
   .btn {
@@ -461,11 +458,22 @@ h4 {
     width: 100%;
   }
 
-  table {
-    width: 100%;
-    margin: auto;
-    margin-bottom: 1rem;
+  table{
+    padding: 24px;
   }
+
+  th{
+    font-size: 0.6rem;
+  }
+
+  td{
+    font-size: 0.5rem;
+  }
+  
+  /*   table {
+      width: 100%;
+      margin: 0;
+    }
 
   thead {
     font-size: 1rem;
@@ -475,8 +483,7 @@ h4 {
 
   tbody {
     background-color: #faf5e4;
-    font-size: 1rem;
-    text-align: left;
+    text-align: center  ;
   }
 
   table,
@@ -484,30 +491,22 @@ h4 {
   td {
     border: 1.5px solid #000;
     padding: 8px;
+    width: 100%;
   }
-
+ */
   /* Speakers */
 
-  h5, h6 {
-    text-align: left;
-  }
-
   .core-team {
-    width: 40%;
-    display: inline-block;
-    border: 2px solid #f6426d;
+    width: 47%;
     padding: 0;
-    margin: 1rem;
+    margin: 0 1px 12px 1px;
   }
-
-
 
 
   /* REGISTRATION FEES */
 
   .dark {
-    background-color: #FFC4C4;
-    padding: 24px;
+    padding: 0;
     border: 2px solid;
     border-radius: 16px;
   }
