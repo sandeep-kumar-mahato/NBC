@@ -264,8 +264,16 @@ tbody{
   margin: auto;
 }
 
+/*  */
 
-
+.core-team {
+  width: 25%;
+  border: 3px solid #000;
+  border-radius: 20px;
+  margin: 2% 4%;
+  padding: 24px;
+  display: inline-block;
+}
 
 
 
