@@ -104,6 +104,9 @@ nav .material-icons {
   width: auto;
   line-height: 1;
   vertical-align: -0.15em;
+}
+
+.log1 {
   margin-top: 15%;
 }
 
@@ -194,17 +197,9 @@ marquee {
   padding-bottom: 2%;
 }
 
-.sponsor-img {
-  width: 250%;
+.sponsors-img {
+  width: 200px;
 }
-
-.roww {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 4%;
-}
-
 
 
 /* ------------- Scope -------------- */
@@ -322,8 +317,6 @@ h4 {
 
 
 
-
-
 @media(max-width: 700px) {
 
   .container {
@@ -379,6 +372,10 @@ h4 {
     height: 1.5em;
   }
 
+  .log1 {
+    margin-top: 14.875rem;
+  }
+
   .heading {
     width: 100%;
     margin: auto;
@@ -386,22 +383,24 @@ h4 {
   }
 
   .title {
-    font-size: 3.5rem;
+    font-size: 7rem;
   }
 
   .title2 {
-    width: 35%;
+    font-size: 3.5rem;
+    width: 70%;
     margin: auto;
     margin-top: -2rem;
     text-align: right;
   }
 
   #demo {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     width: 100%;
   }
 
   .btn {
+    width: 80%;
     color: #fff;
     background-color: #f6426d;
     font-weight: 700;
@@ -418,108 +417,52 @@ h4 {
   /* Social Icons */
 
   .fab {
-    font-size: 50px;
-    padding: 24px 8px;
-  }
-
-  .fa-facebook {
-    color: rgb(66, 103, 178);
-  }
-
-  .fa-instagram {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    -webkit-background-clip: text;
-    /* Also define standard property for compatibility */
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .fa-linkedin {
-    color: #0072b1;
-  }
-
-  .fa-twitter {
-    color: rgb(29, 161, 242);
+    font-size: 25px;
   }
 
   /* ------------- Marquee ---------- */
 
   .marquee {
-    background-color: #ed1346;
+    height: 3rem;
   }
 
   marquee {
-    font-size: 1.3rem;
-    padding-top: 2.2rem;
-    color: #fff;
+    font-size: 1rem;
+    padding-top: 0.7rem;
+    font-weight: 100;
   }
 
 
   /* ------------ Sponsors ------------ */
 
-  .container2 {
-    background-color: #FFE7BF;
-    padding-bottom: 2%;
-  }
-
-  .sponsor-img {
-    width: 250%;
-  }
-
-  .roww {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 4%;
-  }
-
-
+    .sponsors-img {
+      width: 100px;
+    }
 
   /* ------------- Scope -------------- */
 
   .scope {
-    background-color: #FFC4C4;
-    padding: 24px;
+    padding: 24px 0;
   }
 
   .short-title {
-    width: 80%;
-    margin: auto;
-    text-align: left;
-    font-size: 1.125rem;
-    font-weight: 600;
-    color: #000;
-  }
-
-  a {
-    text-decoration: none;
-    color: #fff;
-  }
-
-  a:hover {
-    color: #fff;
+    width: 100%;
+    padding: 2% 5%;
   }
 
   /*  Abstract Section */
 
   .section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 2rem;
+    display: block;
+    padding: 0;
   }
 
   .section2 {
-    width: 50%;
-    margin: auto;
-  }
-
-  mark {
-    color: #ed1346;
+    width: 100%;
   }
 
   table {
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-bottom: 1rem;
   }
@@ -545,12 +488,19 @@ h4 {
 
   /* Speakers */
 
+  h5, h6 {
+    text-align: left;
+  }
+
   .core-team {
+    width: 40%;
     display: inline-block;
     border: 2px solid #f6426d;
-    padding: 1rem;
+    padding: 0;
     margin: 1rem;
   }
+
+
 
 
   /* REGISTRATION FEES */
