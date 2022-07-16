@@ -302,6 +302,7 @@ h4 {
 .dropdown{
   background-color: #FF869E;
   border: 1px solid #ed1346;
+  padding: 0.5rem;
 }
 
 .advisory-committee{
