@@ -297,6 +297,18 @@ h4 {
 }
 
 
+/* ------------- Committee ------------- */
+
+.dropdown{
+  background-color: #FF869E;
+  border: 1px solid #ed1346;
+}
+
+.advisory-committee{
+  background-color: #FF869E;
+}
+
+
 /* How to reach Rourkela */
 
 .dark3 {
