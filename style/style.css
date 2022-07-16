@@ -264,18 +264,14 @@ tbody{
   margin: auto;
 }
 
-/*  */
+/* Speakers */
 
 .core-team {
-  width: 25%;
-  border: 3px solid #000;
-  border-radius: 20px;
-  margin: 2% 4%;
-  padding: 24px;
   display: inline-block;
+  border: 2px solid #f6426d;
+  padding: 1rem;
+  margin: 1rem;
 }
-
-
 
 
 
