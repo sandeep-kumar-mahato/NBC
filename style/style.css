@@ -63,29 +63,6 @@ nav {
   margin: 0 0.5rem;
 }
 
-.nav-links {
-  flex: 1;
-  text-align: center;
-}
-
-.navbar-nav li::after {
-  content: '';
-  width: 0%;
-  height: 2px;
-  background: #9b23576f;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
-
-.navbar-nav li:hover::after {
-  width: 100%;
-}
-
-nav .material-icons {
-  display: none;
-}
-
 /* --------------- Home Page ----------------- */
 
 .log {
@@ -299,17 +276,13 @@ h4 {
 
 /* ------------- Committee ------------- */
 
-span {
+label{
+  text-align: left;
+  padding: 1rem;
   color: white;
   font-size: 1.2em;
-  font-variant: small-caps;
   cursor: pointer;
   display: block;
-}
-
-span::after {
-  float: right;
-  right: 10%;
 }
 
 .slide {
@@ -319,6 +292,8 @@ span::after {
   overflow: hidden;
   text-align: left;
   transition: height .4s ease;
+  background-color: #FFC4C4;
+  margin: 0;
 }
 
 .slide li {
@@ -328,18 +303,19 @@ span::after {
 #touch, #touch1, #touch2, #touch3 {
   position: absolute;
   opacity: 0;
-  height: 0px;
+  height: 0;
 }
 
 #touch:checked+.slide, #touch1:checked+.slide, #touch2:checked+.slide, #touch3:checked+.slide {
   height: auto;
+  padding: 2rem;
 }
 
 .dropdown {
   width: 100%;
   background-color: #FF869E;
   border: 1px solid #ed1346;
-  padding: 0.5rem;
+  padding: 0.5 0;
 }
 
 
