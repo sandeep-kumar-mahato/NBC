@@ -18,17 +18,20 @@ body {
 }
 
 .container {
-  height: 100vh;
   width: 75%;
   margin: auto;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 1%;
 }
 
 h1 {
   font-family: 'Merriweather', serif;
   font-weight: 900;
   font-size: 100px;
+}
+
+p {
+  font-family: 'Source Serif Pro', serif;
 }
 
 
@@ -100,7 +103,7 @@ p {
   font-weight: 700;
 }
 
-.heading{
+.heading {
   width: 25%;
   margin: auto;
   padding: 1rem;
@@ -110,7 +113,8 @@ p {
   font-size: 7rem;
   color: #f6426d;
 }
-.title2{
+
+.title2 {
   margin-top: -2rem;
   text-align: right;
 }
@@ -134,7 +138,8 @@ p {
   border: none;
   border-radius: 0;
 }
-.btn:hover{
+
+.btn:hover {
   background-color: #ed1346;
 }
 
@@ -167,12 +172,97 @@ p {
 
 
 
+/* ------------- Marquee ---------- */
+
+.marquee{
+  background-color: #ed1346;
+}
+
+marquee{
+  font-size: 1.3rem;
+  padding-top: 2.2rem;
+  color: #fff;
+}
+
+
+/* ------------ Sponsors ------------ */
+
+.container2{
+  background-color: #d0e364;
+  padding-bottom: 2%;
+}
+
+.sponsors{
+  font-size: 3rem;
+  padding: 2%;
+}
+
+.sponsor1{
+  width: 250%;
+}
+
+.roww{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 4%;
+}
 
 
 
+/* ------------- Scope -------------- */
 
+.scope{
+  background-color: #f1c50e;
+}
 
+.short-title{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #fff;
+}
 
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+  color: #fff;
+}
+
+/*  Abstract Section */
+
+table{
+  width: 70%;
+  margin: auto;
+}
+
+thead{
+  font-size: 2rem;
+  background-color: olivedrab;
+  color: #fff;
+}
+
+tbody{
+  background-color: #faf5e4;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section2{
+  width: 50%;
+  margin: auto;
+}
 
 
 
