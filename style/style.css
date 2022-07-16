@@ -13,7 +13,7 @@ serif; */
 }
 
 body {
-  background-color: #faf5e4;
+  background-color: #FFE7BF;
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -24,14 +24,23 @@ body {
   padding-top: 1%;
 }
 
-h1 {
+h1,
+h3 {
   font-family: 'Merriweather', serif;
   font-weight: 900;
-  font-size: 100px;
+  font-size: 3rem;
+  padding: 2%;
+  color: #f6426d;
+}
+
+h3 {
+  color: #A10035;
 }
 
 p {
   font-family: 'Source Serif Pro', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 
@@ -98,20 +107,15 @@ nav .material-icons {
   margin-top: 15%;
 }
 
-p {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
 .heading {
   width: 25%;
   margin: auto;
   padding: 1rem;
+  color: #f6426d;
 }
 
 .title {
   font-size: 7rem;
-  color: #f6426d;
 }
 
 .title2 {
@@ -170,15 +174,13 @@ p {
   color: rgb(29, 161, 242);
 }
 
-
-
 /* ------------- Marquee ---------- */
 
-.marquee{
+.marquee {
   background-color: #ed1346;
 }
 
-marquee{
+marquee {
   font-size: 1.3rem;
   padding-top: 2.2rem;
   color: #fff;
@@ -187,21 +189,16 @@ marquee{
 
 /* ------------ Sponsors ------------ */
 
-.container2{
-  background-color: #d0e364;
+.container2 {
+  background-color: #FFE7BF;
   padding-bottom: 2%;
 }
 
-.sponsors{
-  font-size: 3rem;
-  padding: 2%;
-}
-
-.sponsor1{
+.sponsor-img {
   width: 250%;
 }
 
-.roww{
+.roww {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -212,56 +209,70 @@ marquee{
 
 /* ------------- Scope -------------- */
 
-.scope{
-  background-color: #f1c50e;
+.scope {
+  background-color: #FFC4C4;
+  padding: 24px;
 }
 
-.short-title{
+.short-title {
   width: 80%;
   margin: auto;
   text-align: left;
   font-size: 1.125rem;
   font-weight: 600;
-  color: #fff;
+  color: #000;
 }
 
-a{
+a {
   text-decoration: none;
   color: #fff;
 }
 
-a:hover{
+a:hover {
   color: #fff;
 }
 
 /*  Abstract Section */
 
-table{
-  width: 70%;
-  margin: auto;
-}
-
-thead{
-  font-size: 2rem;
-  background-color: olivedrab;
-  color: #fff;
-}
-
-tbody{
-  background-color: #faf5e4;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.section{
+.section {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 2rem;
 }
 
-.section2{
+.section2 {
   width: 50%;
   margin: auto;
+}
+
+mark {
+  color: #ed1346;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+thead {
+  font-size: 1rem;
+  background-color: #FF869E;
+  color: #fff;
+}
+
+tbody {
+  background-color: #faf5e4;
+  font-size: 1rem;
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1.5px solid #000;
+  padding: 8px;
 }
 
 /* Speakers */
@@ -274,10 +285,66 @@ tbody{
 }
 
 
+/* REGISTRATION FEES */
+
+.dark {
+  background-color: #FFC4C4;
+  padding: 24px;
+  border: 2px solid;
+  border-radius: 16px;
+}
+
+.dark2,
+.dark3 {
+  border: 2px solid;
+  margin: 2% 0;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+h2 {
+  color: #A10035;
+  font-weight: bolder;
+}
+
+h4 {
+  color: #A10035;
+  padding: 1%;
+  font-size: 1.5rem;
+}
+
+
+/* How to reach Rourkela */
+
+.dark3 {
+  background-color: #f6426d;
+}
+
+
 
 
 
 @media(max-width: 700px) {
+
+  .container {
+    width: 100%;
+  }
+
+  h1,
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .logo {
+    margin-left: -2rem;
+  }
+
   .nav-links ul li {
     display: block;
   }
@@ -305,4 +372,221 @@ tbody{
   .nav-links ul {
     padding: 16px;
   }
+
+  /* --------------- Home Page ----------------- */
+
+  .log {
+    height: 1.5em;
+  }
+
+  .heading {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .title2 {
+    width: 35%;
+    margin: auto;
+    margin-top: -2rem;
+    text-align: right;
+  }
+
+  #demo {
+    font-size: 1.5rem; 
+    width: 100%;
+  }
+
+  .btn {
+    color: #fff;
+    background-color: #f6426d;
+    font-weight: 700;
+    padding: 9px 69px 10px;
+    margin: 2%;
+    border: none;
+    border-radius: 0;
+  }
+
+  .btn:hover {
+    background-color: #ed1346;
+  }
+
+  /* Social Icons */
+
+  .fab {
+    font-size: 50px;
+    padding: 24px 8px;
+  }
+
+  .fa-facebook {
+    color: rgb(66, 103, 178);
+  }
+
+  .fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .fa-linkedin {
+    color: #0072b1;
+  }
+
+  .fa-twitter {
+    color: rgb(29, 161, 242);
+  }
+
+  /* ------------- Marquee ---------- */
+
+  .marquee {
+    background-color: #ed1346;
+  }
+
+  marquee {
+    font-size: 1.3rem;
+    padding-top: 2.2rem;
+    color: #fff;
+  }
+
+
+  /* ------------ Sponsors ------------ */
+
+  .container2 {
+    background-color: #FFE7BF;
+    padding-bottom: 2%;
+  }
+
+  .sponsor-img {
+    width: 250%;
+  }
+
+  .roww {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4%;
+  }
+
+
+
+  /* ------------- Scope -------------- */
+
+  .scope {
+    background-color: #FFC4C4;
+    padding: 24px;
+  }
+
+  .short-title {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #000;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
+  /*  Abstract Section */
+
+  .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .section2 {
+    width: 50%;
+    margin: auto;
+  }
+
+  mark {
+    color: #ed1346;
+  }
+
+  table {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  thead {
+    font-size: 1rem;
+    background-color: #FF869E;
+    color: #fff;
+  }
+
+  tbody {
+    background-color: #faf5e4;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  table,
+  th,
+  td {
+    border: 1.5px solid #000;
+    padding: 8px;
+  }
+
+  /* Speakers */
+
+  .core-team {
+    display: inline-block;
+    border: 2px solid #f6426d;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+
+  /* REGISTRATION FEES */
+
+  .dark {
+    background-color: #FFC4C4;
+    padding: 24px;
+    border: 2px solid;
+    border-radius: 16px;
+  }
+
+  .dark2,
+  .dark3 {
+    border: 2px solid;
+    margin: 2% 0;
+    padding: 24px;
+    border-radius: 16px;
+  }
+
+  h2 {
+    color: #A10035;
+    font-weight: bolder;
+  }
+
+  h4 {
+    color: #A10035;
+    padding: 1%;
+    font-size: 1.5rem;
+  }
+
+
+  /* How to reach Rourkela */
+
+  .dark3 {
+    background-color: #f6426d;
+  }
+
+
 }
