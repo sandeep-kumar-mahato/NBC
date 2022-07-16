@@ -498,7 +498,7 @@ h4 {
     border: 2px solid;
     margin: 2% 0;
     padding: 24px;
-    border-radius: none;
+    border-radius: 0;
   }
 
   h2 {
