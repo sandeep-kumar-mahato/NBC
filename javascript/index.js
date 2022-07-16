@@ -27,3 +27,8 @@ var x = setInterval(function () {
     document.getElementById("demo").innerHTML = "00 : 00 : 00 : 00";
   }
 }, 1000);
+
+
+function myFunction(x) {
+  x.classList.toggle("fa-angle-double-up");
+} 

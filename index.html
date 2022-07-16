@@ -31,9 +31,9 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a href="#">NBC</a></li>
-        <li class="nav-item"><a href="#">Key Speakers</a></li>
-        <li class="nav-item"><a href="#">Fee Structure</a></li>
-        <li class="nav-item"><a href="#">Committee</a></li>
+        <li class="nav-item"><a href="#speakers">Key Speakers</a></li>
+        <li class="nav-item"><a href="#fees">Fee Structure</a></li>
+        <li class="nav-item"><a href="#committee">Committee</a></li>
         <li class="nav-item"><a href="#">Reach Rourkela</a></li>
       </ul>
     </div>
@@ -159,7 +159,7 @@
 
   <!-- Speakers Section -->
 
-  <div class="scope">
+  <div class="scope" id="speakers">
     <div class="container" style="padding: 0">
       <h3>Key Note Speakers</h3>
       <p>NBC - 2022</p>
@@ -234,7 +234,7 @@
 
   <!-- REGISTRATION FEES -->
 
-  <div class="container2">
+  <div class="container2" id="fees">
     <div class="container">
       <h1 class="sponsors">Registration Fees</h1>
 
@@ -298,12 +298,23 @@
 
       <div class="dark2">
         <h1 class="sponsors">Payment</h1>
-        <h4>
-          All payments should be made through A/c payee Demand Draft in favor
-          of <mark>“CONFERENCE NIT ROURKELA”</mark>, payable at
-          <mark>SBI NIT Campus Branch, Rourkela (IFSC Code: SBIN0002109)</mark>
-          or through <mark>NEFT transfer to A/c No. 36734418111</mark>.
-        </h4>
+        <h4>Payment should be made through an Online transfer / Demand Draft in favour of <mark>“Conference, NIT
+            Rourkela”</mark> payable at <mark>SBI,
+            NIT Branch Rourkela - 769008</mark> and send to the following address. You may choose to pay the amount
+          through <mark>NEFT/RTGS</mark> with
+          following details:</h4>
+
+        <div>
+          <ul class="bank-details">
+            <li>Branch Details : <mark>State Bank of India (SBI), NIT CAMPUS, ROURKELA</mark></li>
+            <li>IFSC Code : <mark>SBIN0002109</mark></li>
+            <li>Account Name : <mark>CONFERENCE, NIT ROURKELA</mark></li>
+            <li>Account Number : <mark>36734418111</mark></li>
+          </ul>
+        </div>
+
+
+
         <h4>
           You can also visit
           <a href="https://www.nitrkl.ac.in/"><mark>www.nitrkl.ac.in</mark></a>
@@ -315,12 +326,12 @@
 
   <!-- Committee -->
 
-  <div class="scope">
+  <div class="scope" id="committee">
     <div class="container">
       <h1>COMMITTEE</h1>
 
       <div class="dropdown">
-        <label for="touch">ADVISORY COMMITTEE</label>
+        <label for="touch" class="fas fa-angle-double-down" onclick="myFunction(this)"> ADVISORY COMMITTEE </label>
         <input type="checkbox" id="touch" />
         <ul class="slide">
           <li>
@@ -351,7 +362,7 @@
       </div>
 
       <div class="dropdown">
-        <label for="touch1"><span>SCIENTIFIC COMMITTEE</span></label>
+        <label for="touch1" class="fas fa-angle-double-down" onclick="myFunction(this)"> SCIENTIFIC COMMITTEE</label>
         <input type="checkbox" id="touch1" />
         <ul class="slide">
           <li>Prof. Alok Jain, BIT Mesra</li>
@@ -363,7 +374,7 @@
       </div>
 
       <div class="dropdown">
-        <label for="touch2"><span>ORGANISING COMMITTEE</span></label>
+        <label for="touch2" class="fas fa-angle-double-down" onclick="myFunction(this)"> ORGANISING COMMITTEE</label>
         <input type="checkbox" id="touch2" />
         <ul class="slide">
           <li>Prof. Krishna Pramanik, NIT Rourkela</li>
@@ -388,7 +399,7 @@
       </div>
 
       <div class="dropdown">
-        <label for="touch3"><span>VOLUNTEERS</span></label>
+        <label for="touch3" class="fas fa-angle-double-down" onclick="myFunction(this)"> VOLUNTEERS</label>
         <input type="checkbox" id="touch3" />
         <ul class="slide">
           <li>Mr. GLP Ashok (Scholar)</li>
