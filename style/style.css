@@ -274,7 +274,7 @@ h4 {
   font-size: 1.4rem;
 }
 
-.bank-details{
+.bank-details {
   text-align: left;
   width: 70%;
   margin: auto;
@@ -317,7 +317,7 @@ label {
 #touch3 {
   position: absolute;
   opacity: 0;
-  height: 0;  
+  height: 0;
 }
 
 #touch:checked+.slide,
@@ -541,12 +541,21 @@ label {
     font-size: 1rem;
   }
 
+  .bank-details {
+    text-align: left;
+    width: 100%;
+    margin: auto;
+    font-size: 0.9rem;
+    color: #A10035;
+    padding: 4%;
+  }
+
 
   /* Committee */
 
-.slide li{
-  font-size: 0.8rem;
-}
+  .slide li {
+    font-size: 0.8rem;
+  }
 
 
   /* How to reach Rourkela */
@@ -563,7 +572,7 @@ label {
     padding: 1rem;
   }
 
-  .footer h6{
+  .footer h6 {
     padding: 1rem 0;
   }
 
