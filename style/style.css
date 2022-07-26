@@ -218,6 +218,10 @@ table {
   width: 100%;
 }
 
+.table {
+  width: 140%;
+}
+
 thead {
   font-size: 1.5rem;
   background-color: #FF869E;
@@ -349,7 +353,7 @@ label {
   background-color: #f6426d;
 }
 
-.travel{
+.travel {
   text-align: left;
   background-color: #f6426d;
 }
@@ -500,6 +504,11 @@ label {
 
   .section2 {
     width: 100%;
+  }
+
+  .table {
+    width: 100%;
+    border: 0.5px solid #000;
   }
 
   th {
