@@ -96,7 +96,7 @@ nav {
 #demo {
   font-size: 2rem;
   font-weight: bold;
-  color: #f1c50e;
+  color: #ed1346;
   border: 2px solid #f6426d;
   width: 35%;
   margin: auto;
@@ -345,6 +345,17 @@ label {
 
 .dark3 {
   background-color: #f6426d;
+}
+
+.travel{
+  text-align: left;
+  background-color: #f6426d;
+}
+
+.travel li {
+  display: inline-block;
+  padding: 12px;
+  margin: 0;
 }
 
 /* Footer */
