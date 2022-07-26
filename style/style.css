@@ -219,7 +219,7 @@ table {
 }
 
 thead {
-  font-size: 1rem;
+  font-size: 1.5rem;
   background-color: #FF869E;
   color: #fff;
 }
@@ -227,6 +227,7 @@ thead {
 tbody {
   background-color: #faf5e4;
   font-size: 1rem;
+  font-weight: bold;
 }
 
 table,
