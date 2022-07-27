@@ -13,9 +13,9 @@ serif; */
 }
 
 body {
-  background-color: wheat;
+  background: linear-gradient(to right, #620f32, #ff149d);
   font-family: 'Work Sans', sans-serif;
-  background-image: url('/images/background.jpg');
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(/images/background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
