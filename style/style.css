@@ -78,7 +78,7 @@ nav {
   background-size: cover;
 }
 
-.text-color{
+.text-color {
   color: #fff;
 }
 
@@ -399,8 +399,8 @@ label {
 @media(max-width: 700px) {
 
   .bg {
-      background-position: center;
-    }
+    background-position: center;
+  }
 
   .container {
     width: 100%;
